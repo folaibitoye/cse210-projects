@@ -8,13 +8,15 @@ namespace DailyJournal
     {
         static List<string> prompts = new List<string>
         {
+            // The last two prompts represents the creativity added
+            
             "Who was the most interesting person I interacted with today?",
             "What was the best part of my day?",
             "How did I see the hand of the Lord in my life today?",
             "What was the strongest emotion I felt today?",
             "If I had one thing I could do over today, what would it be?",
-            "What were the privacy concerns of my day?",//creativity
-            "What was the greatest motivation of today?"//creativity
+            "What were the privacy concerns of my day?",
+            "What was the greatest motivation of today?"
         };
 
         static List<Entry> journal = new List<Entry>();
